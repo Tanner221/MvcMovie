@@ -21,12 +21,12 @@
     <thead>
         <tr>
             <th>
-                <a asp-action="Index" asp-route-sortBy="Title">
+                <a class="sortLink" asp-action="Index" asp-route-sortBy="Title">
                     @Html.DisplayNameFor(model => model.Movies[0].Title)
                 </a>
             </th>
             <th>
-                <a asp-action="Index" asp-route-sortBy="Date">
+                <a class="sortLink" asp-action="Index" asp-route-sortBy="Date">
                     @Html.DisplayNameFor(model => model.Movies[0].ReleaseDate)
                 </a>
             </th>

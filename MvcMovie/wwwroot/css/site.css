@@ -16,3 +16,14 @@ html {
 body {
   margin-bottom: 60px;
 }
+nav {
+    background-color: rgb(2, 190, 0);
+}
+a {
+    color: rgb(2, 190, 0);
+    text-decoration: none;
+}
+
+.sortLink{
+    color: black;
+}
